@@ -36,9 +36,9 @@ Partial Class FrmBMI
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(77, 34)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(76, 18)
+        Me.Label1.Size = New System.Drawing.Size(85, 18)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "身長(m)："
+        Me.Label1.Text = "身長(cm)："
         '
         'Label2
         '
