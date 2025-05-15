@@ -3,7 +3,7 @@
     Private taijyu As Double
     Private bmi As Double
     Private Sub btnCalc_Click(sender As Object, e As EventArgs) Handles btnCalc.Click
-        sintyo = txtSincyo.Text
+        sintyo = txtSincyo.Text / 100
         taijyu = txtTaijyu.Text
 
         bmi = taijyu / (sintyo * sintyo)
