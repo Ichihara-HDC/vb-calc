@@ -118,6 +118,9 @@
     <EmbeddedResource Include="Frmmain.resx">
       <DependentUpon>Frmmain.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmTri.resx">
+      <DependentUpon>FrmTri.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
