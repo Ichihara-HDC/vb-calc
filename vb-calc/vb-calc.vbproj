@@ -73,6 +73,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmTri.Designer.vb">
+      <DependentUpon>FrmTri.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTri.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBMI.Designer.vb">
+      <DependentUpon>FrmBMI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBMI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTra.Designer.vb">
+      <DependentUpon>FrmTra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTra.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frmmain.vb">
       <SubType>Form</SubType>
     </Compile>

@@ -22,53 +22,53 @@ Partial Class Frmmain
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnTri = New System.Windows.Forms.Button()
+        Me.btnTra = New System.Windows.Forms.Button()
+        Me.btnBMI = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnTri
         '
-        Me.Button1.Location = New System.Drawing.Point(101, 59)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(236, 53)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "三角形の面積"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnTri.Location = New System.Drawing.Point(101, 59)
+        Me.btnTri.Name = "btnTri"
+        Me.btnTri.Size = New System.Drawing.Size(236, 53)
+        Me.btnTri.TabIndex = 0
+        Me.btnTri.Text = "三角形の面積"
+        Me.btnTri.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnTra
         '
-        Me.Button2.Location = New System.Drawing.Point(101, 137)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(236, 46)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "台形の面積"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnTra.Location = New System.Drawing.Point(101, 137)
+        Me.btnTra.Name = "btnTra"
+        Me.btnTra.Size = New System.Drawing.Size(236, 46)
+        Me.btnTra.TabIndex = 1
+        Me.btnTra.Text = "台形の面積"
+        Me.btnTra.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnBMI
         '
-        Me.Button3.Location = New System.Drawing.Point(101, 202)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(236, 56)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "BMI指数"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnBMI.Location = New System.Drawing.Point(101, 202)
+        Me.btnBMI.Name = "btnBMI"
+        Me.btnBMI.Size = New System.Drawing.Size(236, 56)
+        Me.btnBMI.TabIndex = 2
+        Me.btnBMI.Text = "BMI指数"
+        Me.btnBMI.UseVisualStyleBackColor = True
         '
         'Frmmain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(458, 318)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnBMI)
+        Me.Controls.Add(Me.btnTra)
+        Me.Controls.Add(Me.btnTri)
         Me.Name = "Frmmain"
         Me.Text = "メインメニュー"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnTri As Button
+    Friend WithEvents btnTra As Button
+    Friend WithEvents btnBMI As Button
 End Class
