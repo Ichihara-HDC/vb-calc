@@ -29,7 +29,7 @@ Partial Class FrmTra
         Me.lblMenseki = New System.Windows.Forms.Label()
         Me.txtJyotei = New System.Windows.Forms.TextBox()
         Me.txtKatei = New System.Windows.Forms.TextBox()
-        Me.lblTakasa = New System.Windows.Forms.TextBox()
+        Me.txtTakasa = New System.Windows.Forms.TextBox()
         Me.btnCalc = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -91,12 +91,12 @@ Partial Class FrmTra
         Me.txtKatei.Size = New System.Drawing.Size(100, 25)
         Me.txtKatei.TabIndex = 6
         '
-        'lblTakasa
+        'txtTakasa
         '
-        Me.lblTakasa.Location = New System.Drawing.Point(229, 165)
-        Me.lblTakasa.Name = "lblTakasa"
-        Me.lblTakasa.Size = New System.Drawing.Size(100, 25)
-        Me.lblTakasa.TabIndex = 7
+        Me.txtTakasa.Location = New System.Drawing.Point(229, 165)
+        Me.txtTakasa.Name = "txtTakasa"
+        Me.txtTakasa.Size = New System.Drawing.Size(100, 25)
+        Me.txtTakasa.TabIndex = 7
         '
         'btnCalc
         '
@@ -113,7 +113,7 @@ Partial Class FrmTra
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(434, 332)
         Me.Controls.Add(Me.btnCalc)
-        Me.Controls.Add(Me.lblTakasa)
+        Me.Controls.Add(Me.txtTakasa)
         Me.Controls.Add(Me.txtKatei)
         Me.Controls.Add(Me.txtJyotei)
         Me.Controls.Add(Me.lblMenseki)
@@ -135,6 +135,6 @@ Partial Class FrmTra
     Friend WithEvents lblMenseki As Label
     Friend WithEvents txtJyotei As TextBox
     Friend WithEvents txtKatei As TextBox
-    Friend WithEvents lblTakasa As TextBox
+    Friend WithEvents txtTakasa As TextBox
     Friend WithEvents btnCalc As Button
 End Class
